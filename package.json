@@ -1,0 +1,21 @@
+{
+  "name": "browser-enzyme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack && uglifyjs ./dist/bundle.js -c -m -o ./dist/bundle.min.js --source-map ./dist/bundle.min.js.map"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "enzyme": "^2.4.1",
+    "react-addons-test-utils": "^15.3.2",
+    "uglify-js": "^2.7.3"
+  }
+}
